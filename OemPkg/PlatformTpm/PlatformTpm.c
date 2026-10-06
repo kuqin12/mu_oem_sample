@@ -182,9 +182,9 @@ SecureTpmPriorToBoot (
 
   // Disable the PH.
   Status = Tpm2HierarchyControl (
-             TPM_RH_PLATFORM,                         // AuthHandle
-             NULL,                                    // AuthSession
-             TPM_RH_PLATFORM,                         // Hierarchy
+             TPM_RH_PLATFORM,                        // AuthHandle
+             NULL,                                   // AuthSession
+             TPM_RH_PLATFORM,                        // Hierarchy
              NO                                      // State
              );
   DEBUG ((DEBUG_VERBOSE, "PlatformTpm::SecureTpmPriorToBoot - Disable PH = %r\n", Status));

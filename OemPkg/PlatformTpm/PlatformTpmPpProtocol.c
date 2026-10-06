@@ -271,7 +271,7 @@ STATIC
 EFI_STATUS
 EFIAPI
 PpProcessUserConfirmation (
-  IN TPM_PP_PROTOCOL    *This
+  IN TPM_PP_PROTOCOL  *This
   )
 {
   EFI_STATUS  Status = EFI_SUCCESS;
