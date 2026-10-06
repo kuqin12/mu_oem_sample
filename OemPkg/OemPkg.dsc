@@ -148,6 +148,7 @@
   OemPkg/Library/ActiveProfileIndexSelectorPcdLib/ActiveProfileIndexSelectorPcdLib.inf
   OemPkg/HelloUefi/HelloUefi.inf
   OemPkg/DeviceStateDxe/DeviceStateDxe.inf
+  OemPkg/PlatformTpm/PlatformTpm.inf
 
 [Components.IA32]
   OemPkg/DeviceStatePei/DeviceStatePei.inf
